@@ -1,1 +1,3 @@
 
+- **login.sh**: The first step in the script is to always ensure that the folder /Users/Shared/login has the proper permissions, ownership and visibility. Then it will remove the trigger file _/Users/Shared/login/trigger_. This script will then call the rest of the login scripts that need to run. Since Apple did away with Login and Logout Hooks, we now need to find a clever way to run scripts upon user login and user logout. This script is called by a LaunchDaemon: edu.stonybrook.sinc.runlogin.plist.
+- **edu.stonybrook.sinc.runlogin.plist**: This Launch Daemon looks for activity in an invisible folder: /Users/Shared/login. Once a file has been added it will fire off the login.sh script. This is due to the fact that most login scripts need to run with root priviliges.
