@@ -22,7 +22,7 @@ These are the scripts we use with DeployStudio for lab computer deployment.
 - **SINC\_Enable\_SSH.sh**: Enables SSH right after imaging, thus allowing admins to gain remote access while the computers install software, profiles, settings etc. The script needs to run while the computer is a netboot state, after the computer has rebooted off it's internal drive.
 
 
-- SINC\_Fix\_Names.sh: For a while DeployStudio wasn't properly setting the hostname, thus a script to remedy. The script needs to run while the computer is a netboot state, after the computer has rebooted off it's internal drive.
+- **SINC\_Fix\_Names.sh**: For a while DeployStudio wasn't properly setting the hostname, thus a script to remedy. The script needs to run while the computer is a netboot state, after the computer has rebooted off it's internal drive.
 
 
 - **SINC\_Setup\_MunkiReport\_PHP.sh**: Configures MunkiReport on the clients so they can report back. The script needs to run while the computer is a netboot state, after the computer has rebooted off it's internal drive.
