@@ -2,4 +2,5 @@
 - **edu.stonybrook.sinc.rmuser.plist**: LaunchDaemon to run rmUser.pl every morning at 8am, usually before the labs open up.
 - **sinc-nightreboot.sh**: This script will reboot the lab computers very early in the morning. Should there be a user logged in, BigHonkingText (https://github.com/kitzy/bighonkingtext) is used to bring up a warning to the user at T-10, T-5 and T-1 before reboot occurs. It is called by the LaunchDaemon: _edu.stonybrook.sinc.nightreboot.plist_.
 - **edu.stonybrook.sinc.nightreboot.plist**: LaunchDaemon to launch sinc-nightreboot.sh.
-- **sinc-KickMunki.sh**: A script that will update the Munki Client identifier, by looking at the config script on the DeployStudio Server. It will then generate a randon sleep time, then fire off Munki. This is supposed to run in the middle of the night.
+- **sinc-KickMunki.sh**: A script that will update the Munki Client identifier, by looking at the config script on the DeployStudio Server. It will then generate a randon sleep time, then fire off Munki. This is supposed to run in the middle of the night. This script is kicked off by the following LaunchDaemon file: edu.stonybrook.sinc.KickMunki.plist.
+- **edu.stonybrook.sinc.KickMunki.plist**: LaunchDaemon plist to run sinc-KickMunki.sh.
