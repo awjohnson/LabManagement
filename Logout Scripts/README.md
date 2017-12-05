@@ -6,4 +6,4 @@
 - **sinc-LogoffTracker.sh**: Our homebrewed login/logoff tracker.
 - **sinc-ForceOut.sh**: Is triggered by the LaunchDaemon: edu.stonybrook.sinc.ForceOut.plist. It removes the trigger file, then kills the login window. Needs to be run as root. This forced logout also triggers the logout.sh to fire off.
 - **edu.stonybrook.sinc.ForceOut.plist**: LaunchDaemon which is watching the invisible folder: _/Users/Shared/ForceOut_ for a trigger file to then fire off sinc-ForceOut.sh script. The trigger file is dropped in by the screensaver LogoutAE. Inside it has a folder called: ForceLogOutScripts and inside of that there is a triger.sh script.
--- **triger.sh**: Script residing in the LogOutAE.saver screensaver in the ForceLogOutScripts folder. This will put a trigger file in the LaunchDaemon watched folder _/Users/Shared/ForceOut_ so to trigger the force logout events.
+- **triger.sh**: Script residing in the LogOutAE.saver screensaver in the ForceLogOutScripts folder. This will put a trigger file in the LaunchDaemon watched folder _/Users/Shared/ForceOut_ so to trigger the force logout events.
