@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>admin</string>
+		<key>creation_date</key>
+		<date>2016-02-02T21:21:32Z</date>
+		<key>munki_version</key>
+		<string>2.2.4.2431</string>
+		<key>os_version</key>
+		<string>10.10.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Printer Queues</string>
+	<key>description</key>
+	<string>Graduate Music Xerox Phaser 5500 printer.</string>
+	<key>developer</key>
+	<string>Andrew W. Johnson</string>
+	<key>display_name</key>
+	<string>Graduate Music Xerox Phaser 5500 Printer</string>
+	<key>icon_name</key>
+	<string>Xerox Phaser 5500DN.png</string>
+	<key>installcheck_script</key>
+	<string>#!/bin/bash
+
+# This will run as a Munki install_check script.
+# Exit status of 0 means install needs to run.
+# Exit status not 0 means no installation necessary.
+
+printDriver="/Library/Printers/PPDs/Contents/Resources/Xerox Phaser 5550DN.gz"
+printerModel="Xerox Phaser 5550"
+printerQueue="musq"
+exitStatus=0
+
+	# If the printer driver doesn't exist, don't install the printer.
+if [ ! -e "$printDriver" ]; then
+	/bin/echo "Print driver $printDriver is not installed. Please install the print drivers for printer $printerModel."
+	exitStatus=1
+	exit $exitStatus
+fi
+
+	# Check to see if the printer is actually installed.
+isThere=`/usr/bin/lpstat -v 2&gt;/dev/null | /usr/bin/egrep -ic $printerQueue`
+if [ $isThere -eq 0 ]; then
+	exitStatus=0
+else
+	exitStatus=1
+fi
+
+exit $exitStatus
+
+</string>
+	<key>installer_type</key>
+	<string>nopkg</string>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>musq</string>
+	<key>postinstall_script</key>
+	<string>#!/usr/bin/perl -w
+
+	# Setup a hash with the printer variables.
+$printers{printerGUIname} = "Grad Music";
+$printers{address}        = "popup://printer.server.edu:515";
+$printers{queue}          = "musq";
+$printers{driver}         = "/Library/Printers/PPDs/Contents/Resources/Xerox Phaser 5550DN.gz";
+$printers{option1}        = "XRXOptionDuplex=True";
+$printers{default}        = 1;
+$printers{model}          = "Xerox Phaser 5550";
+
+	# Add the printer.
+print "Adding printer: $printers{printerGUIname}\n";
+system("/usr/sbin/lpadmin -D \"$printers{printerGUIname}\" -p \"$printers{queue}\" -v \"$printers{address}/$printers{queue}\" -P \"$printers{driver}\" -o \"$printers{option1}\" -o printer-is-shared=false -E\n");
+
+	# Set the printer as default should it be required.
+if ( $printers{default} == 1 )
+{
+	print "Setting $printers{queue} as default.\n";
+	system("/usr/bin/lpoptions -d $printers{queue} &gt; /dev/null 2&gt;&amp;1");
+}
+
+	# Enable and start the printers on the system (after adding the printer initially it is paused).
+print "Enabling $printers{queue}.\n";
+system("/usr/sbin/cupsenable \$(/usr/bin/lpstat -p | /usr/bin/grep -w \"printer\" | /usr/bin/awk '{print\$2}')");
+
+exit;
+
+</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/bash
+
+queue="musq"
+
+/usr/sbin/lpadmin -x $queue
+
+exit 0
+</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
