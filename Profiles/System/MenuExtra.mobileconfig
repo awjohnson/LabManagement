@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.mcxMenuExtras</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AirPort.menu</key>
+								<false/>
+								<key>Battery.menu</key>
+								<false/>
+								<key>Bluetooth.menu</key>
+								<false/>
+								<key>Clock.menu</key>
+								<true/>
+								<key>Displays.menu</key>
+								<true/>
+								<key>DwellControl.menu</key>
+								<false/>
+								<key>Eject.menu</key>
+								<false/>
+								<key>ExpressCard.menu</key>
+								<false/>
+								<key>IrDA.menu</key>
+								<false/>
+								<key>PPP.menu</key>
+								<false/>
+								<key>PPPoE.menu</key>
+								<false/>
+								<key>RemoteDesktop.menu</key>
+								<false/>
+								<key>Script Menu.menu</key>
+								<false/>
+								<key>TextInput.menu</key>
+								<true/>
+								<key>TimeMachine.menu</key>
+								<false/>
+								<key>UniversalAccess.menu</key>
+								<true/>
+								<key>User.menu</key>
+								<false/>
+								<key>VPN.menu</key>
+								<false/>
+								<key>Volume.menu</key>
+								<true/>
+								<key>WWAN.menu</key>
+								<false/>
+								<key>iChat.menu</key>
+								<false/>
+								<key>delaySeconds</key>
+								<real>1</real>
+							</dict>
+						</dict>
+					</array>
+					<key>mcx_targets</key>
+					<array>
+						<string>user</string>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>edu.YourSchool.MenuExtras</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>36b14197-3388-492c-b7a1-cae748143969</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Menu Extras settings.</string>
+	<key>PayloadDisplayName</key>
+	<string>Menu Extras</string>
+	<key>PayloadIdentifier</key>
+	<string>edu.YourSchool.MenuExtras</string>
+	<key>PayloadOrganization</key>
+	<string>YOUR ORG</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>ae5c4c7c-c354-453b-bd15-d37437b46d2c</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

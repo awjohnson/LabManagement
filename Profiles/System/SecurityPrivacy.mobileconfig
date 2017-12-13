@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>edu.YourSchool.SecurityPrivacy</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>db253a80-a0e5-0132-a37c-005056865ce2</string>
+		<key>PayloadOrganization</key>
+		<string>YOUR ORG</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadDescription</key>
+		<string>Settings:
+Auto Submit Diagnostic Info - off
+Allow Diagnostic Submission - off
+Gatekeeper - Anywhere
+Allow Password reset - off
+Dont Allow Password Reset UI - on
+Dont Allow Lock Message UI - on
+Change Password Disabled - on
+Screensaver Ask For Password - on
+</string>
+		<key>PayloadDisplayName</key>
+		<string>Security &amp; Privacy</string>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.SubmitDiagInfo</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.SecurityPrivacy.SubmitDiagInfo</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>ff893158-ca91-e5c6-b659-e73919776e61</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy - Auto Submit</string>
+				<key>AutoSubmit</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.applicationaccess</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.SecurityPrivacy.ApplicationAccess</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>22244b75-190e-0636-ad3d-77811de7e495</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy - Allow Diagnostic Submission</string>
+				<key>allowDiagnosticSubmission</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.systempolicy.control</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.SecurityPrivacy.Control</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>d7e95657-c70b-48ed-b7fc-c599c7f9fa05</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy - Allow Identified Developers</string>
+				<key>EnableAssessment</key>
+				<false/>
+				<key>AllowIdentifiedDevelopers</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.systempolicy.managed</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.SecurityPrivacy.Managed</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>be4cf050-a2b3-9770-415c-d1f408bc98fb</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy - Disable Override</string>
+				<key>DisableOverride</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.MCX</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.SecurityPrivacy.MCX</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>71c92448-f15c-6c2b-3d25-957214ee21bd</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy</string>
+				<key>DestroyFVKeyOnStandby</key>
+				<false/>
+				<key>dontAllowFDEDisable</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.preference.security</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.SecurityPrivacy.security</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>08ae782a-33de-da7f-5c75-a0d0f9b66c23</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy</string>
+				<key>dontAllowPasswordResetUI</key>
+				<true/>
+				<key>dontAllowLockMessageUI</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.loginwindow</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.SecurityPrivacy.loginwindow</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>c918e5bd-40ae-c0f9-ef96-82293d72626e</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy - Change Password Disabled</string>
+				<key>ChangePasswordDisabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.screensaver</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.SecurityPrivacy.screensaver</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>3b8f27fe-4709-73eb-daf5-d33cddcb47a8</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy - Screensaver Ask For Password</string>
+				<key>askForPassword</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>

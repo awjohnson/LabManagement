@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.systempreferences</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2015-04-17T15:50:47Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>NSQuitAlwaysKeepsWindows</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>edu.YourSchool.QuitAlwaysKeepsWindows</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>c28c7305-a8f9-4f83-9d78-6613f3eefd50</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+Quit Always Keeps Windows - False.
+</string>
+	<key>PayloadDisplayName</key>
+	<string>Quit Always Keeps Windows</string>
+	<key>PayloadIdentifier</key>
+	<string>edu.YourSchool.QuitAlwaysKeepsWindows</string>
+	<key>PayloadOrganization</key>
+	<string>YOUR ORG</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>f33a863e-1a02-49cf-968d-f78bff34ee00</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

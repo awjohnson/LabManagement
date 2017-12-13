@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.screensaver.ByHost</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>idleTime</key>
+								<integer>300</integer>
+								<key>moduleDict</key>
+								<dict>
+									<key>moduleName</key>
+									<string>LogOutAE</string>
+									<key>path</key>
+									<string>/Library/Screen Savers/LogOutAE.saver</string>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>edu.YourSchool.UserScreenSaver</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>e4e3e1b7-a1fa-4fec-af30-acad5fc52808</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.apple.screensaver.ByHost
+</string>
+	<key>PayloadDisplayName</key>
+	<string>User Screen Saver</string>
+	<key>PayloadIdentifier</key>
+	<string>edu.YourSchool.UserScreenSaver</string>
+	<key>PayloadOrganization</key>
+	<string>YOUR ORG</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>f18a0c14-9e0d-4e5d-8013-9ecb98a84c6b</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

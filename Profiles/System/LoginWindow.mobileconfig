@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>edu.YourSchool.loginwindow</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>d997a598-8ebf-4101-9690-0d841f74e52d</string>
+		<key>PayloadOrganization</key>
+		<string>YOUR ORG</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadDisplayName</key>
+		<string>LoginWindow Settings</string>
+		<key>PayloadDescription</key>
+		<string>Settings for:
+Login Window
+Login Window:  Screen Saver Settings
+Login Window:  MCX Preferences
+Login Window:  Global Preferences
+Login Window:  Scripts
+</string>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.loginwindow</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.LoginWindow</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>7f7b0800-b53b-4479-84e2-7e2a454a75f4</string>
+				<key>PayloadDisplayName</key>
+				<string>Login Window</string>
+				<key>LoginwindowText</key>
+				<string>NetID Access</string>
+				<key>SHOWFULLNAME</key>
+				<true/>
+				<key>HideLocalUsers</key>
+				<true/>
+				<key>HideMobileAccounts</key>
+				<true/>
+				<key>IncludeNetworkUser</key>
+				<false/>
+				<key>HideAdminUsers</key>
+				<true/>
+				<key>SHOWOTHERUSERS_MANAGED</key>
+				<false/>
+				<key>ShutDownDisabled</key>
+				<true/>
+				<key>RestartDisabled</key>
+				<false/>
+				<key>SleepDisabled</key>
+				<true/>
+				<key>RetriesUntilHint</key>
+				<integer>0</integer>
+				<key>com.apple.login.mcx.DisableAutoLoginClient</key>
+				<true/>
+				<key>DisableConsoleAccess</key>
+				<true/>
+				<key>AdminMayDisableMCX</key>
+				<true/>
+				<key>EnableExternalAccounts</key>
+				<false/>
+				<key>AlwaysShowWorkgroupDialog</key>
+				<false/>
+				<key>CombineUserWorkgroups</key>
+				<true/>
+				<key>FlattenUserWorkgroups</key>
+				<false/>
+				<key>LocalUserLoginEnabled</key>
+				<false/>
+				<key>LocalUsersHaveWorkgroups</key>
+				<false/>
+				<key>AllowList</key>
+				<array/>
+				<key>DenyList</key>
+				<array/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.screensaver</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.ScreenSaver</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>8c726e0e-db53-4de3-adce-8b094eb36bef</string>
+				<key>PayloadDisplayName</key>
+				<string>Login Window - Screen Saver</string>
+				<key>loginWindowIdleTime</key>
+				<integer>120</integer>
+				<key>loginWindowModulePath</key>
+				<string>/System/Library/Frameworks/ScreenSaver.framework/Resources/iLifeSlideshows.saver</string>
+				<key>idleTime</key>
+				<integer>300</integer>
+				<key>moduleName</key>
+				<string>iLifeSlideshows</string>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.MCX</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.MCX</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>8bb207de-4569-4ce2-b472-226330eb71e2</string>
+				<key>PayloadDisplayName</key>
+				<string>Login Window - MCX Preferences</string>
+				<key>DisableGuestAccount</key>
+				<true/>
+				<key>EnableGuestAccount</key>
+				<false/>
+				<key>SleepDisabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>.GlobalPreferences</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GlobalPreferences</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>b8676943-4db0-4bb0-852c-0121bbf80216</string>
+				<key>PayloadDisplayName</key>
+				<string>Login Window - Global Preferences</string>
+				<key>MultipleSessionEnabled</key>
+				<false/>
+				<key>com.apple.autologout.AutoLogOutDelay</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.mcxloginscripts</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.McxLoginScripts</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>b37e3bcf-7364-41d4-831b-1322ffaecfa2</string>
+				<key>PayloadDisplayName</key>
+				<string>Login Window - Scripts</string>
+				<key>skipLoginHook</key>
+				<false/>
+				<key>skipLogoutHook</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+</plist>

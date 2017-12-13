@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>edu.YourSchool.sinc.LoginItems</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>1233ae60-c11c-0132-a39e-005056865ce2</string>
+		<key>PayloadOrganization</key>
+		<string>YOUR ORG</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadDisplayName</key>
+		<string>Login Items</string>
+		<key>PayloadDescription</key>
+		<string>Settings to allow/deny LoginItems.</string>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>loginwindow</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.loginwindow</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>d86954e7-58de-65db-0e65-48cf162f6edd</string>
+				<key>PayloadDisplayName</key>
+				<string>Login Items - Network Share Point</string>
+				<key>DisableLoginItemsSuppression</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.loginitems.managed</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.managed</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>5a78548e-d052-5def-51c5-106ed1046099</string>
+				<key>PayloadDisplayName</key>
+				<string>Login Items - Managed Items</string>
+				<key>AutoLaunchedApplicationDictionary-managed</key>
+				<array>
+					<dict>
+						<key>Path</key>
+						<string>/Applications/Utilities/Salute.app</string>
+						<key>Hide</key>
+						<true/>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</plist>

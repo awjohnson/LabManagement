@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>edu.YourSchool.GeneralRestrictions</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>1e0097a0-a0e6-0132-a37f-005056865ce2</string>
+		<key>PayloadOrganization</key>
+		<string>YOUR ORG</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadDisplayName</key>
+		<string>General Restrictions</string>
+		<key>PayloadDescription</key>
+		<string>General Restrictions:
+System Preferences Panes - access
+Game Center - off
+App Store - off
+Safari autofill - off
+Widgets - on
+AirDrop - off
+Media Access - all plus eject media on logout
+Disc recording - on
+Social media sharing - off
+Desktop - set to loginwindow background
+</string>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.dashboard</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.Dashboard</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>f13814c4-c7d4-b19b-d608-26a41f20f659</string>
+				<key>PayloadDisplayName</key>
+				<string>Dashboard Widget Restrictions</string>
+				<key>whiteListEnabled</key>
+				<false/>
+				<key>WhiteList</key>
+				<array/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.systemuiserver</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.SystemUiServer</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>b08475ae-268c-b62c-ab63-9450539c3141</string>
+				<key>PayloadDisplayName</key>
+				<string>General Restrictions - System UI Server</string>
+				<key>logout-eject</key>
+				<dict>
+					<key>all-media</key>
+					<string/>
+				</dict>
+				<key>mount-controls</key>
+				<dict>
+					<key>blankcd</key>
+					<array/>
+					<key>blankdvd</key>
+					<array/>
+					<key>cd</key>
+					<array/>
+					<key>dvd</key>
+					<array/>
+					<key>dvdram</key>
+					<array/>
+					<key>disk-image</key>
+					<array/>
+					<key>harddisk-external</key>
+					<array/>
+					<key>harddisk-internal</key>
+					<array/>
+				</dict>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.DiscRecording</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.DiscRecording</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>1cbb29f0-8e87-96b3-37e1-05b8ce49ba34</string>
+				<key>PayloadDisplayName</key>
+				<string>Media Access - Disc Recording</string>
+				<key>BurnSupport</key>
+				<string>on</string>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.finder</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.Finder</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>8e097fda-5a12-c5b4-6c5d-10caae58bda2</string>
+				<key>PayloadDisplayName</key>
+				<string>Media Access - Finder Settings</string>
+				<key>ProhibitBurn</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.systempreferences</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.SystemPreferences</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>e5e5eaa0-786f-fe48-19f9-6c80c7f8f85f</string>
+				<key>PayloadDisplayName</key>
+				<string>System Preferences</string>
+				<key>EnabledPreferencePanes</key>
+				<array>
+					<string>com.apple.preference.general</string>
+					<string>com.apple.preference.universalaccess</string>
+					<string>com.apple.preference.displays</string>
+					<string>com.apple.preference.ink</string>
+					<string>com.apple.preference.keyboard</string>
+					<string>com.apple.Localization</string>
+					<string>com.apple.preferences.icloud</string>
+					<string>com.apple.preference.expose</string>
+					<string>com.apple.preference.mouse</string>
+					<string>com.apple.preference.sound</string>
+					<string>com.apple.preference.speech</string>
+					<string>com.apple.preference.trackpad</string>
+					<string>com.wacom.settingsPrefPane</string>
+					<string>com.wacom.PenTabletSettingsPrefPane</string>
+				</array>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.NetworkBrowser</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.NetworkBrowser</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>62cba6c0-64ff-6b22-3aad-cc46b1bc4ab7</string>
+				<key>PayloadDisplayName</key>
+				<string>AirDrop</string>
+				<key>DisableAirDrop</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.appstore</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.AppStore</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>c919ed35-6e9d-1f40-1800-c258ed6a1a47</string>
+				<key>PayloadDisplayName</key>
+				<string>App Store</string>
+				<key>restrict-store-softwareupdate-only</key>
+				<false/>
+				<key>restrict-store-disable-app-adoption</key>
+				<true/>
+				<key>restrict-store-require-admin-to-install</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.ShareKitHelper</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.ShareKitHelper</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>d7faa496-c3a3-8994-ad24-bfd337be7d02</string>
+				<key>PayloadDisplayName</key>
+				<string>Restrictions ShareKitHelper</string>
+				<key>SHKAllowedShareServices</key>
+				<array/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.gamed</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralrestRictions.GameCenter</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>0ee22815-17e1-e99f-6fc2-b0f7f154590a</string>
+				<key>PayloadDisplayName</key>
+				<string>Game Center</string>
+				<key>GKFeatureGameCenterAllowed</key>
+				<false/>
+				<key>GKFeatureAccountModificationAllowed</key>
+				<true/>
+				<key>GKFeatureAddingGameCenterFriendsAllowed</key>
+				<true/>
+				<key>GKFeatureMultiplayerGamingAllowed</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.desktop</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.Desktop</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>34d3f487-e985-dbee-0201-38184e290c2a</string>
+				<key>PayloadDisplayName</key>
+				<string>Desktop</string>
+				<key>locked</key>
+				<true/>
+				<key>override-picture-path</key>
+				<string>/Users/Shared/DesktopPictures/User_Background.png</string>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.MCX</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>edu.YourSchool.GeneralRestrictions.SafariAllowAutoFill</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>e816a962-9245-6400-2023-67855676a4f2</string>
+				<key>PayloadDisplayName</key>
+				<string>Safari AutoFill</string>
+				<key>safariAllowAutoFill</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+</plist>
