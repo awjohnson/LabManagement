@@ -1,0 +1,1 @@
+Applications settings and licensing.
