@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.stuffit.StuffIt-Expander</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>SUEnableAutomaticChecks</key>
+								<false/>
+								<key>SUHasLaunchedBefore</key>
+								<true/>
+								<key>SULastCheckTime</key>
+								<date>2015-04-02T20:14:43Z</date>
+								<key>SUSendProfileInfo</key>
+								<false/>
+								<key>profiles</key>
+								<array>
+									<dict>
+										<key>destinationID</key>
+										<integer>1</integer>
+										<key>expansion_settings</key>
+										<dict>
+											<key>conflictResolution</key>
+											<integer>2</integer>
+											<key>createFolderMethod</key>
+											<integer>1</integer>
+											<key>deleteAction</key>
+											<integer>0</integer>
+											<key>executable</key>
+											<true/>
+											<key>expansionOptions</key>
+											<integer>5</integer>
+										</dict>
+										<key>localDestinationID</key>
+										<integer>1</integer>
+										<key>mountDiskImages</key>
+										<true/>
+										<key>notificationID</key>
+										<integer>4</integer>
+										<key>profileType</key>
+										<integer>2</integer>
+										<key>scanWithAntivirus</key>
+										<false/>
+									</dict>
+								</array>
+								<key>registrationAction</key>
+								<integer>2</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.stuffit.StuffIt-Expander.Settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>e88e77f9-e679-479c-9354-06ea995ce4a0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.stuffit.StuffIt-Expander
+</string>
+	<key>PayloadDisplayName</key>
+	<string>StuffIt Expander Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>com.stuffit.StuffIt-Expander.Settings</string>
+	<key>PayloadOrganization</key>
+	<string>YOUR ORG</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3b2d5c17-f078-45c7-9bdc-e0b72d8456f7</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

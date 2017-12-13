@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.fetchsoftworks.Fetch.Shortcuts</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2015-02-25T13:37:36Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>Shortcuts v2</key>
+								<dict>
+									<key>Preferences</key>
+									<dict>
+										<key>Default</key>
+										<false/>
+										<key>Font</key>
+										<string>Lucida Grande</string>
+										<key>Font Size</key>
+										<real>10</real>
+										<key>Layout</key>
+										<dict>
+											<key>Columns</key>
+											<array>
+												<array>
+													<string>ULC0</string>
+													<dict>
+														<key>Index</key>
+														<integer>0</integer>
+														<key>Width</key>
+														<integer>160</integer>
+													</dict>
+												</array>
+												<array>
+													<string>ULC3</string>
+													<dict>
+														<key>Index</key>
+														<integer>1</integer>
+														<key>Width</key>
+														<integer>180</integer>
+													</dict>
+												</array>
+												<array>
+													<string>ULC4</string>
+													<dict>
+														<key>Index</key>
+														<integer>2</integer>
+														<key>Width</key>
+														<integer>70</integer>
+													</dict>
+												</array>
+												<array>
+													<string>ULC5</string>
+													<dict>
+														<key>Index</key>
+														<integer>3</integer>
+														<key>Width</key>
+														<integer>178</integer>
+													</dict>
+												</array>
+												<array>
+													<string>ULC6</string>
+													<dict>
+														<key>Index</key>
+														<integer>4</integer>
+														<key>Width</key>
+														<integer>108</integer>
+													</dict>
+												</array>
+											</array>
+											<key>Sort column</key>
+											<string></string>
+											<key>Sort order</key>
+											<integer>1</integer>
+										</dict>
+										<key>Window Bounds</key>
+										<dict>
+											<key>Height</key>
+											<real>234</real>
+											<key>Width</key>
+											<real>616</real>
+											<key>X</key>
+											<real>0.0</real>
+											<key>Y</key>
+											<real>45</real>
+										</dict>
+									</dict>
+									<key>Shortcuts</key>
+									<dict>
+										<key>Name</key>
+										<string></string>
+										<key>Shortcuts</key>
+										<array>
+											<dict>
+												<key>ID</key>
+												<string>1BE6E086-1E95-4330-8768-148A109F8EFC</string>
+												<key>Name</key>
+												<string>Sparky</string>
+												<key>Remote Item</key>
+												<dict>
+													<key>Info</key>
+													<dict>
+														<key>Alias</key>
+														<false/>
+														<key>File</key>
+														<true/>
+														<key>Folder</key>
+														<false/>
+													</dict>
+													<key>Location</key>
+													<dict>
+														<key>URL</key>
+														<string>sftp://YOUR_SHORT_CUT/</string>
+													</dict>
+													<key>Options</key>
+													<dict>
+														<key>Retries</key>
+														<integer>0</integer>
+													</dict>
+												</dict>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
+								<array>
+									<string>Shortcuts v2</string>
+								</array>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.fetchsoftworks.fetchshortcuts</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>418e6222-f9f0-4cd0-9123-5bca37c93f66</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Fetch Shortcuts</string>
+	<key>PayloadDisplayName</key>
+	<string>Fetch Shortcuts</string>
+	<key>PayloadIdentifier</key>
+	<string>com.fetchsoftworks.fetchshortcuts</string>
+	<key>PayloadOrganization</key>
+	<string>YOUR ORG</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9ccc338e-212b-4954-bd78-da14da5e0e8e</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
