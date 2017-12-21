@@ -34,7 +34,7 @@ alias find="/usr/bin/find"
 alias dirname="/usr/bin/dirname"
 
 	# Some Variables
-myIdentifier="edu.stonybrook.sinc.HighSierraFirmware"
+myIdentifier="edu.YourSchool.YourDepartment.HighSierraFirmware"
 
 echo ""
 
